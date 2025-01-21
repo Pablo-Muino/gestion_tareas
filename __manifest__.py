@@ -18,5 +18,10 @@
     'description': """
         Módulo de Odoo para la gestión de tareas asignadas a empleados,
         incluyendo vistas Kanban y formulario detallado.
-    """
+    """,
+    'assets': {
+        'web.assets_backend': [
+            '/gestion_tareas/static/src/css/styles.css',
+        ],
+    }
 }
